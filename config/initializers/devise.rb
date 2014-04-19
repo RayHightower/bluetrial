@@ -231,6 +231,7 @@ Devise.setup do |config|
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
   config.omniauth :github, 'f19f54036d58b5a807d3', '14ab98dca3449c5cbb72cf26bf6f33737e88adef', scope: 'user,public_repo'
+  # More providers can be defined here: Twitter, Google, etc.
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
