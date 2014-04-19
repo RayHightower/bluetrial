@@ -1,7 +1,8 @@
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   def github
-    auth = request.env['omniauth.auth'].to_yaml
+    # raise request.env['omniauth.auth'].to_yaml
+    auth = request.env['omniauth.auth']
 
     user = User.find_by(provider: auth['provider'], uid: auth['uid']) || User.create_with_omniauth(auth)
 
