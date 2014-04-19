@@ -12,5 +12,4 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
       redirect_to :root, notice: "failed to save user"
     end
   end
-
 end
