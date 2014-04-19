@@ -4,7 +4,7 @@ Bluetrial::Application.routes.draw do
 
   resources :products
 
-  devise_for :users
+  devise_for :users, :controller: { omniauth_callbacks_controller: "omniauth_callbacks_controller" }
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
