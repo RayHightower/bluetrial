@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'devise' # for the Blue1647 OAuth OmniAuth meetup.
+gem 'omniauth-github'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
