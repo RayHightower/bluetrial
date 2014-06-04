@@ -3,7 +3,7 @@ bluetrial
 
 Simple, bare-bones Rails app for testing:
 
-* GitHub authentication.
-* Ninefold deployments.
+* [GitHub](https://developer.github.com/v3/#authentication) authentication.
+* [Ninefold](http://ninefold.com) deployments.
 
 
