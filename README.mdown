@@ -1,0 +1,9 @@
+bluetrial
+===
+
+Simple, bare-bones Rails app for testing:
+
+* GitHub authentication.
+* Ninefold deployments.
+
+
