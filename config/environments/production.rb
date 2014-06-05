@@ -77,4 +77,7 @@ Bluetrial::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  # Modernizr added manually by RTH on 04Jun2014
+  config.assets.precompile += %w( vendor/modernizr.js )
 end
