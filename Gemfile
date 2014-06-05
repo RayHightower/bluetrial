@@ -8,6 +8,9 @@ gem 'rails', '4.0.2'
 
 gem 'pg'
 
+# Zurb Foundation for responsive design
+gem 'foundation-rails', '~> 5.2.3.0'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
